@@ -4,7 +4,7 @@
 	<title>About</title>
 	<link rel="stylesheet" type="text/css" href="style/css/buildd.css">
 	<!-- <link rel="stylesheet" type="text/css" href="style/footer.css"> -->
-	<!-- <link rel="stylesheet" type="text/css" href="style/header.css"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="style/header.css"> <>-->
 </head>
 
 <body>
