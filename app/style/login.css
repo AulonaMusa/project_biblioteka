@@ -1,0 +1,228 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body
+{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+
+
+.container
+{
+	float: left;
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+
+
+main
+{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+
+
+
+.content
+{
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+	/*background-color: red;*/
+	float: left;
+}
+
+
+
+.login
+{
+	float: left;
+	margin-left: 30%;
+	margin-right: 30%;
+	/*background-color: lightgreen;*/
+	/*height: 200px;*/
+	margin-top: 80px;
+	margin-bottom: 80px;
+	height: auto;
+	width: 40%;
+}
+
+
+.login-form
+{
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-bottom: 18px;
+}
+
+
+.login-label-name
+{
+	font-family: Arial, sens-serif;
+	width: 100%;
+	float: left;
+	font-size: 16px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+
+
+.login-input
+{
+	width: calc(100% - 26px);     /* 12px + 12px + 1px + 1px = 26px */
+	padding: 12px;
+	float: left;
+	border: 1px solid gray;
+	font-size: 17px;
+	font-family: Arial, sens-serif;
+	border-radius: 5px;
+}
+
+
+.login-remember-checkbox
+{
+	width: 100%;
+	float: left;
+}
+
+
+.login-checkbox-icon
+{
+	width: 15px;
+	height: 15px;
+	float: left;
+}
+
+
+.login-check
+{
+	font-size: 16px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: Arial, sens-serif;
+}
+
+
+.login-lower
+{
+	float: left;
+	width: 100%;
+}
+
+
+
+.login-lower-forgot
+{
+	font-size: 16px;
+	font-family: Arial, sens-serif;
+	text-decoration: none;
+	padding: 10px 0px 10px 0px;
+	float: left;
+	color: #336d9a;
+}
+
+
+.login-lower-forgot:hover
+{
+	color: red;
+}
+
+
+.login-lower-submit
+{
+	padding: 10px 50px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 0px !important;
+	cursor: pointer;
+	float: right;
+}
+
+
+.login-lower-submit:hover
+{
+	color: purple;
+}
+
+
+.login-lower-new-account
+{
+	/*float: left;*/
+	float: right;
+	font-size: 16px;
+	font-family: Arial, sens-serif;
+	text-decoration: none;
+	color: #336d9a;
+	padding-top: 25px;
+}
+
+
+.login-lower-new-account:hover
+{
+	color: red;
+}
+
+
+
+
+
+.login-footer-content-copyrights
+{
+	background-color: lightgray;
+	height: 70px;
+	width: 100%;
+	text-align: center;
+	bottom: 0px;
+	float: left;
+	position: fixed;
+}
+
+
+.login-footer-content-copyrights a:hover
+{
+	color: blue;
+	padding: 10px;
+}
+
+
+.login-footer-content-copyrights p
+{
+	font-size: 18px;
+	padding: 10px;
+	color: black;
+}
+
+
+.login-footer-content-copyrights a:link
+{
+	text-decoration: none;
+}
+
+
+.login-footer-content-copyrights a
+{
+	color: black;
+}
+
+
+
+
+/*.error_input {
+   overflow: hidden; 
+   color:red
+} */
+
+

@@ -1,0 +1,238 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+body
+{
+	margin: 0px;
+	float: left;
+	width: 100%;
+	font-size: 18px;
+	color: black;
+	background-color: white;
+}
+
+
+.container
+{
+	width: 100%;
+	float: left;
+	height: auto;
+	position: relative;
+}
+
+
+main
+{
+	width: 100%;
+	float: left;
+	height: auto;
+}
+
+
+.content
+{
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+	/*background-color: red;*/
+	float: left;
+}
+
+
+
+
+.book-page
+{
+	width: 100%;
+	float: left;
+	/*height: 400px;*/
+	/*background-color: pink;*/
+	height: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 18px;
+}
+
+
+.book-page-info
+{
+	width: 40%;
+	float: left;
+	/*height: 300px;*/
+	/*background-color: lightblue;*/
+	height: auto;
+}
+
+
+.book-page-about-info
+{
+	padding-left: 15%;
+	padding-right: 15%;
+	width: 70%;
+	float: left;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.book-page-info-img
+{
+	width: 100%;
+	float: left;
+	height: 500px;
+}
+
+
+.book-page-info-icon
+{
+	font-size: 22px !important;
+	color: blue;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+.book-page-info-text-category
+{
+	width: 100%;
+	float: left;
+	padding-bottom: 10px;
+}
+
+
+.book-page-info-text-ISBN
+{
+	width: 100%;
+	float: left;
+	padding-bottom: 10px;
+}
+
+
+.book-page-info-text-dimensions
+{
+	width: 100%;
+	float: left;
+	padding-bottom: 10px;
+}
+
+
+.book-page-info-text-pages
+{
+	width: 100%;
+	float: left;
+	padding-bottom: 40px;
+}
+
+
+.book-page-info-text-date
+{
+	width: 100%;
+	float: left;
+}
+
+
+
+.book-page-details
+{
+	width: calc(60% - 2px);
+	float: left;
+	/*height: 300px;*/
+	/*background-color: lightgreen;*/
+	height: auto;
+	border: 1px solid lightgray;
+	border-radius: 15px 80px 15px 15px;
+}
+
+
+.book-page-about-details
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	/*height: 200px;*/
+	/*background-color: pink;*/
+	height: auto;
+	position: relative;
+}
+
+
+.book-page-details-title
+{
+	float: left;
+	font-size: 25px;
+	color: purple;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+
+.book-page-details-table
+{
+	width: 100%;
+	float: left;
+	border-collapse: collapse;
+	/*margin-bottom: -1px;*/
+	border: 1px solid gray;
+}
+
+
+.book-page-details-table-name
+{
+	border: 1px solid gray;
+	width: calc(35% - 22px);
+	float: left;
+	/*margin-right: -1px;*/
+	padding: 10px;
+	height: auto;
+	background-color: lightgray;
+	text-align: center;
+}
+
+
+.book-page-details-table-value
+{
+	border: 1px solid gray;
+	width: calc(65% - 22px);
+	float: left;
+	padding: 10px;
+	height: auto;
+	text-align: center;
+}
+
+
+.book-page-details-download
+{
+	color: blue;
+	position: absolute;
+	right: 0px;
+	top: 200px;
+}
+
+
+.book-page-details-download:hover
+{
+	color: red;
+	cursor: pointer;
+}
+
+
+.book-page-details-text
+{
+	text-align: justify;
+	float: left;
+	width: 100%;
+	padding-top: 40px;
+}

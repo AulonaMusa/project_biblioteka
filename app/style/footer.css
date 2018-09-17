@@ -1,0 +1,36 @@
+.footer-content-copyrights
+{
+	background-color: lightgray;
+	height: 70px;
+	width: 100%;
+	text-align: center;
+	bottom: 0px;
+	float: left;
+}
+
+
+.footer-content-copyrights a:hover
+{
+	color: blue;
+	padding: 10px;
+}
+
+.footer-content-copyrights p
+{
+	font-size: 18px;
+	padding: 10px;
+	color: black;
+}
+
+
+.footer-content-copyrights a:link
+{
+	text-decoration: none;
+	color: black;
+}
+
+
+.footer-content-copyrights a
+{
+	color: black;
+}

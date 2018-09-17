@@ -1,0 +1,65 @@
+@import 'app/about.scss';
+@import 'app/index.scss';
+@import 'app/authors.scss';
+@import 'app/books.scss';
+@import 'app/login.scss';
+@import 'app/create-account.scss';
+@import 'app/single-page.scss';
+@import 'app/single-page-books.scss';
+@import 'app/header.scss';
+@import 'app/footer.scss';
+@import 'app/videos.scss';
+@import 'app/article-tags.scss';
+@import 'app/all-articles.scss';
+
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+    @font-face {
+		font-family: 'Roboto';
+		src: url('../fonts/Roboto/Roboto-Regular.ttf');
+	} 
+
+
+	body {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+	font-family: "Roboto";
+}
+
+
+	.container {
+		width: 100%;
+		height: auto;
+		float: left;
+		position: relative;
+
+
+		main {
+			width: 100%;
+			float: left;
+			height: auto;
+
+
+			.content {
+					margin-left: 10%;
+					margin-right: 10%;
+					width: 80%;
+					float: left;
+					height: auto;
+            }
+		} 
+    }
+
+
+
+
+

@@ -1,0 +1,247 @@
+@import 'app/variables.scss';
+
+.single_page-article
+{
+	margin-right: 100px;
+	margin-left: 100px;
+	width: calc(100% - 200px);
+	float: left;
+	height: auto;
+}
+
+	.article-content{
+		width: 100%;
+		/*background-color: pink;*/
+		/*height: 250px;*/
+		float: left;
+		margin-top: 30px;
+		height: auto;
+		margin-bottom: 20px;
+		background-color: $color-lightgray;
+		border-radius: 5px;
+
+
+		    	.article-content-title{
+					font-size: 22px;
+					/*text-align: center;*/
+					margin-bottom: 20px;
+					margin-top: 5px;
+				}
+
+				.article-content-text{
+					float: left;
+					margin-bottom: 10px;
+					text-align: justify;
+				}
+
+
+		.article-content-photo{
+			float: left;
+			width: 40%;
+			/*height: 410px;*/
+			/*background-color: blue;*/
+			height: auto;
+
+			img{
+				width: 100%;
+				float: left;
+				height: 415px;
+			}
+		}
+
+
+		.article-content-paragraph_1{
+			float: left;
+			width: calc(60% - 20px);
+			/*height: 415px;*/
+			/*background-color: lightgray;*/
+			height: auto;
+			margin-left: 15px;
+			margin-right: 5px;
+		}
+
+		.article-content-paragraph_2{
+			float: left;
+			width: calc(100% - 10px);
+			/*width: 100%;*/
+			/*background-color: lightgray;*/
+			/*height: 200px;*/
+			margin-top: 10px;
+			height: auto;
+			margin-bottom: 10px;
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+
+
+		.article-content-author-date{
+			float: left;
+			margin: 5px;
+			width: calc(100% - 10px);
+			margin-bottom: 10px;
+
+			p{
+				padding: 5px;
+			}
+		}
+
+
+		.article-content-tags{
+			float: left;
+			font-size: 18px;
+			margin-left: 5px;
+			margin-right: 5px;
+			width: calc(100% - 10px);
+			margin-bottom: 10px;
+
+
+			.article-content-tags-item{
+				float: right;
+				border: 1px solid lightgray;
+				padding: 7px;
+				border-radius: 5px;
+				margin: 5px;
+				cursor: pointer;
+				color: black;
+
+				&:hover{
+					opacity: 0.8;
+					/*background-color: lightgray;*/
+				}
+			}
+		}
+	}
+
+
+	.content-comments{
+		width: 100%;
+		float: left;
+		/*height: 300px;*/
+		/*background-color: pink;*/
+		margin-bottom: 20px;
+		height: auto;
+		margin-top: 70px;
+		/*background-color: #80808017;*/
+		border-radius: 5px;
+
+		.content-comments-title{
+			float: left;
+			font-size: 22px;
+			color: black;
+			background-color: transparent;
+			padding: 10px;
+		}
+
+
+		.content--comments{
+			float: left;
+			/*height: 150px;*/
+			/*background-color: red;*/
+			height: auto;
+			padding-bottom: 15px;
+			padding-top: 10px;
+			background-color: $color-lightgray;
+			margin-left: 55px;
+			margin-top: 20px;
+			border-radius: 5px;
+			position: relative;
+
+			.content--comments-author{
+				padding: 5px;
+				float: left;
+				width: calc(100% - 10px);
+				padding-bottom: 10px;
+				font-style: italic;
+			}
+
+			.content--comments-text{
+				text-align: justify;
+				margin-bottom: 10px;
+				padding: 5px;
+				float: left;
+				width: calc(100% - 10px);
+				padding-bottom: 10px;
+			}
+
+			.content--comments-date{
+				float: left;
+				padding-right: 5px;
+				position: absolute;
+				bottom: 2px;
+				right: 0px;
+			}
+		}
+	}
+
+
+	.content-write_comment{
+		width: 100%;
+		float: left;
+		/*height: 200px;*/
+		/*background-color: #80808017;*/
+		height: auto;
+		margin-bottom: 40px;
+		margin-top: 70px;
+
+		.content-write_comment-title{
+			float: left;
+			font-size: 22px;
+			padding: 10px;
+			background-color: transparent;
+		}
+
+		.content-write_comment-send-comment-form{
+			float: left;
+			/*height: 150px;*/
+			/*background-color: red;*/
+			height: auto;
+			width: calc(100% - 85px); 
+			padding: 15px 15px 50px 15px;
+			background-color: $color-lightgray;
+			margin-left: 55px;
+			margin-top: 20px;
+			border-radius: 5px;
+			position: relative;
+
+			.content-write_comment-txtmessage{
+				font-family: "Roboto";
+				font-size: 16px;
+				border-radius: 5px;
+				height: 100px;
+				resize: none;
+				padding: 3px;
+				width: calc(100% - 8px);      /* 3px + 3px + 1px + 1px = 8px */
+			}
+
+			.content-write_comment-submit{
+				font-size: 18px;
+				font-family: "Roboto";
+				padding: 10px 50px;
+				border-radius: 5px;
+				border: 0px !important;
+				width: auto;
+				position: absolute;
+				bottom: 7px;
+				right: 14px;   /* 5px + 5px + 2px(border-txtmessage) + 2px(border-submit) = 14px */ 
+				cursor: pointer;
+
+				&:hover{
+					opacity: 0.8;
+				}				
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

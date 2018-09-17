@@ -1,0 +1,193 @@
+@import 'adminPanel/index.scss';
+@import 'adminPanel/header.scss';
+@import 'adminPanel/article.scss';
+@import 'adminPanel/books.scss';
+@import 'adminPanel/authors.scss';
+@import 'adminPanel/publisher.scss';
+@import 'adminPanel/category.scss';
+@import 'adminPanel/year.scss';
+@import 'adminPanel/video.scss';
+@import 'adminPanel/links.scss';
+@import 'adminPanel/team.scss';
+@import 'adminPanel/about-content.scss';
+@import 'adminPanel/users.scss';
+
+
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+//For icon
+
+ @font-face {
+		font-family: 'open-iconic';
+		src: url('../fonts/open-iconic/open-iconic.otf');
+	} 
+
+
+body{
+	width: 100%;
+	height: auto;
+	float: left;
+
+	main{
+		padding: 0px;
+		margin: 0px;
+		width: 100%;
+		float: left;
+
+
+		.content{
+			width: 100%;
+			float: left;
+			// position: relative;
+			height: auto;
+
+
+
+			.page-content{
+				width: 90%;
+				margin-right: 5%;
+				margin-left: 5%;
+				float: left;
+				height: auto;
+
+				.page--content
+				{
+					width: calc(100% - 60px);
+					height: auto;
+					float: left;
+					margin: 50px 30px;
+				    background-color: $color-lightgray;
+				    height: auto;
+
+
+				    .add_button-content{
+				    	width: 100%;
+				    	float: left;
+
+				    	.add_button{
+					    	border-radius: 10px;
+					    	text-transform: uppercase;
+					    	padding: 8px 30px;
+					    	margin-left: 15px;
+					    	margin-top: 15px;
+					    	float: left;
+
+					    	&:hover{
+					    		opacity: 0.7;
+					    	}
+
+					    }
+				    }
+
+
+				    .add_button-modal{
+	
+						margin: 15px 15px 0px 15px;
+						width: calc(100% - 30px);
+
+							.add-button{
+								background-color: gray;
+								color: white;
+								text-transform: uppercase;
+								padding: 8px 25px;
+								font-size: 18px;
+
+								&:hover{
+									outline: none;
+									opacity: 0.7;
+								}
+						}
+
+
+						.modal-row{
+							float: left;
+							padding: 10px;
+							width: calc(100% - 20px);
+
+							.modal-label_item{
+								float: left;
+								width: 20%;
+							}
+
+							.modal-input_item{
+								float: left;
+								width: 80%;
+								outline: none;
+							}
+
+							.modal-input_item-sm{
+								float: left;
+								width: 25%;
+								outline: none;
+							}
+						}
+
+
+
+						.btn-save, .btn-close{
+
+							&:hover{
+								opacity: 0.7;
+							}
+
+						}
+					}
+				    
+
+				    .table-content{
+				    	float: left;
+				    	width: calc(100% - 30px);
+				    	margin: 30px 15px;
+				    	background-color: white;
+
+				    	th{
+				    		text-align: center;
+				    		height: auto;
+				    	}
+
+				    	td{
+				    		height: auto;
+				    		padding: 7px;
+				    	}
+
+				    	tr{
+				    		height: auto;
+				    	}
+
+				    	.edit, .delete{
+					    	width: 60px;
+					    	text-align: center;
+					    }
+
+				    	.btn-edit, .btn-delete,{
+				    		margin: 0px 20px;
+				    		width: calc(100% - 40px);
+				    		background-color: gray;
+
+				    		&:hover{
+				    			opacity: 0.7;
+				    		}
+
+				    		.edit-icon, .delete-icon{
+					    	font-family: "open-iconic";
+					    	font-size: 16px;
+					    	color: white;
+					        }
+				    	}
+				    	
+				    }
+
+
+				}
+			}
+		}
+    }
+}
+
+
+

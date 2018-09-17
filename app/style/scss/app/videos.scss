@@ -1,0 +1,46 @@
+.videos{
+	width: 100%;
+	float: left;
+	position: relative;
+	margin-top: 70px;
+	margin-bottom: 40px;
+
+	h2{
+	    font-size: 30px;
+	    width: 100%;
+	    padding-bottom: 40px;
+	    float: left;
+	}
+
+	.videos-items-row{
+		width: 100%;
+		margin-bottom: 25px;
+		height: auto;
+		float: left;
+
+
+			.video-item{
+				width: 100%;
+				height: 350px;
+			}
+
+		.video-item-first{
+			width: 31.5833%;
+			padding-right: 1.75%;
+			float: left;
+		}
+
+		.video-item-second{
+			width: 31.5833%;
+			padding-right: 0.875%;
+			padding-left: 0.875%;
+			float: left;
+		}
+
+		.video-item-third{
+			width: 31.5833%;
+			padding-left: 1.75%;
+			float: left;
+		}
+	}
+}

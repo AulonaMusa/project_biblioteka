@@ -1,0 +1,37 @@
+@import 'adminPanel/variables.scss';
+
+.header-content{
+	float: left;
+	position: relative;
+	width: 100%;
+	float: left;
+	background-color: $color-lightgray;
+
+	.header-content-button{
+	    height: 100px;
+	    width: 80%;
+	    margin-right: 10%;
+	    margin-left: 10%;
+	    height: 130px;
+	    position: relative;
+	}
+
+	.button-content{
+		float: left;
+		width: 100%;
+		position: absolute;
+		bottom: 25px;
+
+		.button-content-item{
+			width: 8.333%;
+			float: left;
+			font-size: 18px;
+			border-radius: 8px;
+			padding: 5px;
+
+			&:hover{
+				opacity: 0.7;
+			}
+		}
+	}
+}
